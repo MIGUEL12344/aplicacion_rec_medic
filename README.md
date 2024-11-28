@@ -23,7 +23,6 @@ lo que puede resultar en complicaciones médicas y visitas innecesarias al médi
 - github pages
 - reflex
 - github 
-- flet
 ...
 ### TRELLO 
 visite nuestro entorno de trabajo en trello:
