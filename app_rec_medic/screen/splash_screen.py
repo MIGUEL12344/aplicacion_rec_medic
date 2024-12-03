@@ -5,7 +5,7 @@ def splashScreen()-> rx.Component:
         rx.container(
             rx.color_mode.button(position="top-right"),
             rx.vstack(
-                rx.image(src="/capsula.png", width="100px", padding="10px", margin_bottom="35px"),
+                rx.link(rx.image(src="/capsula.png", width="100px", padding="10px", margin_bottom="35px"),href="/home"),
                 rx.text("R_notifica", size="6"),
                 display="flex",
                 align_items="center",

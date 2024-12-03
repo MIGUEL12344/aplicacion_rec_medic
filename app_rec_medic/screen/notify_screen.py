@@ -1,11 +1,11 @@
 import reflex as rx
-
+@rx.page(route="/notify")
 def notifyScreen() -> rx.Component:
     return rx.mobile_and_tablet(
         rx.container(
             rx.hstack(
             rx.color_mode.button(position="top-right"),
-            rx.text("notificaciones", margin_top="15px", margin_bottom="10px"),
+            rx.link(rx.text("regresar", margin_top="15px", margin_bottom="10px"),href="/home"),
             style={
                 "border_bottom":"2px solid #c56dfc"},
             margin_bottom="100px"),
