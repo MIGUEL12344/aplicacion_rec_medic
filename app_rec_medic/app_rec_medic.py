@@ -1,5 +1,6 @@
 import reflex as rx
 from .screen.splash_screen import splashScreen
+from .screen.home_screen import homeScreen
 from rxconfig import config
 
 
